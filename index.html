@@ -134,7 +134,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title text-warning">Basic Gym</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">₹ 1200/month</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">₹ &nbsp; 1200/month</h6>
                         <p class="card-text">
                             - Access to Gym Equipment<br>
                             - Basic Fitness Guidance<br>
@@ -150,7 +150,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title text-warning">Cardio & Yoga</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">₹ 1500/month</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">₹ &nbsp; 1500/month</h6>
                         <p class="card-text">
                             - Access to Gym Equipment<br>
                             - Cardio Sessions<br>
@@ -272,71 +272,114 @@
     <!-- ***** Our Classes Start ***** -->
 
     <!-- ***** Our Classes End ***** -->
-    
-    <section class="section" id="schedule">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading dark-bg">
-                        <h2>Classes <em>Schedule</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>JOIN OUR HYM NOW AND SEE THE DIFFERENCE IN YOUR BODY AND MINDSET</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="filters">
-                        <ul class="schedule-filter">
-                            <li class="active" data-tsfilter="monday">Monday</li>
-                            <li data-tsfilter="tuesday">Tuesday</li>
-                            <li data-tsfilter="wednesday">Wednesday</li>
-                            <li data-tsfilter="thursday">Thursday</li>
-                            <li data-tsfilter="friday">Friday</li>
+    <style>
+        .story-card {
+            border: 1px solid #e3e3e3;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .story-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .story-img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .story-content {
+            padding: 20px;
+        }
+
+        .story-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .story-summary {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .story-achievements {
+            margin-top: 15px;
+        }
+
+        .cta-button {
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Member Success Stories</h2>
+        <p class="text-center mb-5">Check out the amazing transformations our members have achieved with their hard work and dedication at our gym!</p>
+
+        <div class="row">
+            <!-- Story 1 -->
+            <div class="col-md-4">
+                <div class="story-card">
+                     <div class="story-content">
+                        <h3 class="story-title">Rajat's Transformation</h3>
+                        <p class="story-summary">Rajatlost 20kg in 6 months and improved his overall fitness with our customized training program.</p>
+                        <ul class="story-achievements">
+                            <li>Lost 20kg</li>
+                            <li>Increased muscle mass by 10%</li>
+                            <li>Reduced body fat by 15%</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="schedule-table filtering">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="day-time">Fitness Class</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">05:00AM - 10:00AM</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">5:00PM - 10:00PM</td>
-                                    <td>ABHISHEK SIR</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Muscle Training</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
-                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>ABHISHEK SIR</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Body Building</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
-                                    <td>ABHISHEK SIR</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Yoga Training Class</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>ABHISHEK SIR</td>
-                                </tr>
-                                <tr>
-                                    <td class="day-time">Advanced Training</td>
-                                    <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
-                                    <td>ABHISHEK SIR</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            </div>
+
+            <!-- Story 2 -->
+            <div class="col-md-4">
+                <div class="story-card">
+                      <div class="story-content">
+                        <h3 class="story-title">Ryan's Journey</h3>
+                        <p class="story-summary">Ryan gained 8kg of lean muscle and drastically improved her strength and endurance.</p>
+                        <ul class="story-achievements">
+                            <li>Gained 8kg of lean muscle</li>
+                            <li>Improved strength by 20%</li>
+                            <li>Enhanced endurance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Story 3 -->
+            <div class="col-md-4">
+                <div class="story-card">
+                     <div class="story-content">
+                        <h3 class="story-title">Meenakshi's Success</h3>
+                        <p class="story-summary">Meenakshi shed 15kg and achieved a significant boost in his athletic performance.</p>
+                        <ul class="story-achievements">
+                            <li>Lost 15kg</li>
+                            <li>Boosted athletic performance</li>
+                            <li>Reduced body fat by 10%</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Call to Action -->
+        <div class="cta-button">
+            <a href="#contact" class="btn btn-primary btn-lg">Start Your Transformation Today!</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
     <style>
         .hit-the-gym-section {
             background-color: #333;
